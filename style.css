@@ -18,10 +18,12 @@
     list-style: none;
     justify-content: space-around;
     flex: 0 0 10%;
+    font-weight: 100;
     align-items: center;
 }
 .top-nav ul li span {
     align-self: flex-end;
+
 }
 .top-nav button {
     margin-right: calc(30px);
@@ -77,6 +79,12 @@
 .top-nav ul li:nth-child(2):hover {
     text-decoration: underline;
 }
-.top-nav span:nth-child:hover {
+.top-nav span:hover {
     cursor: pointer;
+    border-radius: 50%;
+    background-color: gray;
+    opacity: 0.7;
+}
+.top-nav span {
+    padding: 5px;
 }
